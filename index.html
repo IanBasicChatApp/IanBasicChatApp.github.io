@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Basic Database Access</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- <button id="testList"> Add LI </button>  -->
+<div id="login">
+  <div id="usernameDiv">
+    <h2> Log in or Create an Account </h2>
+    <input id="logemail" type="text" placeholder="Email">
+    <input id="logpass" type="password" placeholder="Password"></input>
+
+    <button id="loginButton"> Login </button>
+  </div>
+
+  <div>
+    <input id="userEmail" type="text" placeholder="Enter Email Here"></input>
+
+    <input id="userNameInput" type="text" placeholder="Enter User Name Here"> </input>
+
+    <input id="createPasswordInput" type="password" placeholder="Create Password Here"></input>
+
+    <input id="confirmPasswordInput" type="password" placeholder="Confirm Password"></input>
+
+    <button id="createAccountButton"> Create Account </button>
+  </div>
+
+</div>
+
+<div id="app" class="row">
+
+  <div id="servers" class="column">
+    <h1> Groups         </h1>
+    <ul id="serverList">
+    </ul>
+  </div>
+
+  <div id="chatbox" class="column">
+    <h1 id="chatheader"> Chat: general </h1>
+    <!--         <ul id="chatList"> </ul> -->
+    <ul id="supAltChat"></ul>
+    <p id="loggedInAs"></p>
+    <input id="inputBox" type="text"> </input>
+    <button id="sendButton"> Send </button>
+    <button id="clearChats"> Clear Chats </button>
+  
+  <p id="makeNewGroup">
+    <button id="makeNewGroupButton"> Make New Group </button>
+  </p>
+  </div>
+  
+
+  <!--       <div id="alternateChatbox" class="column">
+        <h1> Test Chat Area </h1>
+        <ul id="alternateChatList"> </ul>
+        <h1> Super Alternate Chat </h1> -->
+  <!--         <ul id="supAltChat"></ul> -->
+  <!--       </div> -->
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script type="module" src="./script.js"></script>
+
+</body>
+</html>
